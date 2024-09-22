@@ -1,0 +1,113 @@
+body {
+    font-family: "Happy Monkey", cursive;
+    text-align: center;
+    background: linear-gradient(blue, pink);
+    color: #ffffff;
+
+
+}
+
+/*how to select mutliple elements for on properties */
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 0px 0px 3px black;
+}
+
+#header {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main_img {
+    border-radius: 50%;
+    border: 5px solid #EFB0C9;
+    width: 150px;
+    background-size: cover;
+    transform: rotate(270deg);
+}
+
+#bday-age {
+    background: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px auto;
+
+}
+
+#bday-date {
+    background: #EFB0C9;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    margin: 0px auto 0px auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(images/gift-image.jpg);
+    background-size: cover;
+
+}
+
+.giftcheers {
+    height: 200px;
+}
+
+#dudu_bubu:hover {
+
+    background-image: url(images/palak_flower.JPEG);
+    background-size: cover;
+}
+
+#bubu:hover {
+
+    background-image: url(images/palak_funny.JPEG);
+}
+
+#oneword:hover {
+
+    background-image: url(images/palak_mom.JPEG);
+}
+
+#badass:hover {
+
+    background-image: url(images/badass.webp);
+}
+
+#cheers:hover {
+    background-image: url(images/cheers.png);
+
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
